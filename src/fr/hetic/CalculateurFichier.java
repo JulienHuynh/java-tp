@@ -4,6 +4,8 @@ import java.io.*;
 
 public class CalculateurFichier {
     public static void main(String[] args) throws FileNotFoundException {
+        CalculateurFactory calculateurFactory = new CalculateurFactory();
+
         String dossierOp = args[0];
 
         File dossier = new File(dossierOp);
@@ -27,7 +29,7 @@ public class CalculateurFichier {
                 String ligne = reader.readLine();
                 while (ligne != null) {
                     String[] elements = ligne.split(" ");
-                    writer.println(calculer(elements[0], elements[1], elements[2]));
+                    writer.println(calculateurFactory.calculFichier(elements[0], elements[1], elements[2]));
 
                     ligne = reader.readLine();
                 }
@@ -36,31 +38,6 @@ public class CalculateurFichier {
             } finally {
                 writer.close();
             }
-        }
-    }
-
-    public static String calculer(String number1, String number2, String operation) {
-        if (!isLong(number1) || !isLong(number2)) {
-            return "ERREUR";
-        }
-
-        long number1Long = Long.parseLong(number1);
-        long number2Long = Long.parseLong(number2);
-
-        return switch (operation) {
-            case "+" -> String.valueOf(number1Long + number2Long);
-            case "-" -> String.valueOf(number1Long - number2Long);
-            case "*" -> String.valueOf(number1Long * number2Long);
-            default -> "ERREUR";
-        };
-    }
-
-    public static boolean isLong(String str) {
-        try {
-            Long.parseLong(str);
-            return true;
-        } catch (NumberFormatException e) {
-            return false;
         }
     }
 }
