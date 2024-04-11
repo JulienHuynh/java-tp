@@ -24,6 +24,11 @@ public class CalculateurFactoryTest {
         assertEquals(10, result);
     }
 
+    @Test(expected = IllegalArgumentException.class)
+    public void testCalculerError() {
+        calculateurFactory.calculer(5L, 2L, "a");
+    }
+
     @Test
     public void testCalculFichier() {
         String result = calculateurFactory.calculFichier("5", "2", "+");

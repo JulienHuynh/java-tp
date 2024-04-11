@@ -5,27 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4bdedb0-cba5-4e06-bf9a-6ee303323b3c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/hetic/CalculateurFactoryFonctionnel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fr/hetic/CalculateurFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/hetic/Addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/hetic/Addition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/hetic/Calculateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/hetic/Calculateur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/hetic/CalculateurFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/hetic/CalculateurFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/hetic/CalculateurFichier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/hetic/CalculateurFichier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/hetic/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/hetic/Hello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/hetic/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/hetic/Multiplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/hetic/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/hetic/Operation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/hetic/Soustraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/hetic/Soustraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/hetic/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/hetic/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/hetic/operations/additions.op" beforeDir="false" afterPath="$PROJECT_DIR$/bin/operations/additions.op" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/hetic/operations/soustractions.op" beforeDir="false" afterPath="$PROJECT_DIR$/bin/operations/soustractions.op" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/target/production/java/fr/hetic/operations/additions.op" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/target/production/java/fr/hetic/operations/soustractions.op" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fr/hetic/CalculateurFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fr/hetic/CalculateurFactoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +41,7 @@
     "Application.Unnamed.executor": "Run",
     "JUnit.CalculateurFactoryTest.executor": "Run",
     "JUnit.CalculateurFactoryTest.testAddition.executor": "Run",
+    "JUnit.CalculateurFactoryTest.testCalculerError.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -88,7 +69,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculateurFactoryTest">
+  <component name="RunManager" selected="JUnit.UtilsTest">
     <configuration name="Calculateur" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.hetic.Calculateur" />
       <module name="java" />
@@ -153,14 +134,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculateurFactoryTest.testCalculerError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculateur" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.hetic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.hetic" />
+      <option name="MAIN_CLASS_NAME" value="fr.hetic.CalculateurFactoryTest" />
+      <option name="METHOD_NAME" value="testCalculerError" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculateur" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.hetic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.hetic" />
+      <option name="MAIN_CLASS_NAME" value="fr.hetic.UtilsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Calculateur" />
       <item itemvalue="Application.CalculateurFichier" />
       <item itemvalue="JUnit.CalculateurFactoryTest" />
       <item itemvalue="JUnit.CalculateurFactoryTest.testAddition" />
+      <item itemvalue="JUnit.CalculateurFactoryTest.testCalculerError" />
+      <item itemvalue="JUnit.UtilsTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UtilsTest" />
+        <item itemvalue="JUnit.CalculateurFactoryTest.testCalculerError" />
         <item itemvalue="JUnit.CalculateurFactoryTest" />
         <item itemvalue="JUnit.CalculateurFactoryTest.testAddition" />
       </list>
@@ -189,7 +205,7 @@
       <workItem from="1712665723118" duration="343000" />
       <workItem from="1712666111139" duration="408000" />
       <workItem from="1712666556924" duration="63000" />
-      <workItem from="1712666631147" duration="30789000" />
+      <workItem from="1712666631147" duration="31596000" />
     </task>
     <servers />
   </component>
