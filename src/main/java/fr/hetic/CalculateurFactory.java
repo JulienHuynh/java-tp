@@ -9,7 +9,7 @@ public class CalculateurFactory {
     public CalculateurFactory() {
     }
 
-    Long calculer(Long number1, Long number2, String operation) {
+    public Long calculer(Long number1, Long number2, String operation) {
         return switch (operation) {
             case "+" -> addition.apply(number1, number2);
             case "-" -> soustraction.apply(number1, number2);
@@ -18,7 +18,7 @@ public class CalculateurFactory {
         };
     }
 
-    String calculFichier(String number1, String number2, String operation) {
+    public String calculFichier(String number1, String number2, String operation) {
         if (!utils.isLong(number1) || !utils.isLong(number2)) {
             return "ERREUR";
         }
