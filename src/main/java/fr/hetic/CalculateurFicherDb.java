@@ -3,13 +3,14 @@ package fr.hetic;
 import java.io.*;
 import java.util.List;
 
-public class CalculateurFicherDb {
-    public static void main(String[] args) throws FileNotFoundException {
+public class CalculateurFicherDb implements Reader {
+
+    @Override
+    public void read(String folderName) throws FileNotFoundException {
         CalculateurFactory calculateurFactory = new CalculateurFactory();
         FichierService fichierService = new FichierServiceImpl();
 
-        String dossierOp = args[0];
-        File dossier = new File(dossierOp);
+        File dossier = new File(folderName);
         dossier.mkdirs();
 
         List<FileData> fichiers = fichierService.getFichiers();
@@ -18,7 +19,7 @@ public class CalculateurFicherDb {
             Fichier fichierData = fichier.getFichier();
             List<Ligne> lignes = fichier.getLignes();
 
-            PrintWriter writer = new PrintWriter(dossierOp + "/" + fichierData.getNom() + ".res");
+            PrintWriter writer = new PrintWriter(folderName + "/" + fichierData.getNom() + ".res");
 
             try {
                 for (Ligne ligne : lignes) {

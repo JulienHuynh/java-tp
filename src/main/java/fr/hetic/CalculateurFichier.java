@@ -2,13 +2,12 @@ package fr.hetic;
 
 import java.io.*;
 
-public class CalculateurFichier {
-    public static void main(String[] args) throws FileNotFoundException {
+public class CalculateurFichier implements Reader {
+    @Override
+    public void read(String folderName) throws FileNotFoundException {
         CalculateurFactory calculateurFactory = new CalculateurFactory();
 
-        String dossierOp = args[0];
-
-        File dossier = new File(dossierOp);
+        File dossier = new File(folderName);
         File[] fichiers = dossier.listFiles(new FilenameFilter() {
             @Override
             public boolean accept(File dir, String name) {
@@ -22,7 +21,7 @@ public class CalculateurFichier {
         }
 
         for (File fichier : fichiers) {
-            PrintWriter writer = new PrintWriter(dossierOp + "/" + fichier.getName().replace(".op", ".res"));
+            PrintWriter writer = new PrintWriter(folderName + "/" + fichier.getName().replace(".op", ".res"));
 
             try {
                 BufferedReader reader = new BufferedReader(new FileReader(fichier));

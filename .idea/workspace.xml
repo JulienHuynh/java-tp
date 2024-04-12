@@ -5,26 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4bdedb0-cba5-4e06-bf9a-6ee303323b3c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/hetic/CalculateurFicherDb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/hetic/DatabaseConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/hetic/Fichier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/hetic/FichierService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/hetic/FichierServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/hetic/FileData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/hetic/Ligne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/hetic/FileSystemDatabaseFileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/hetic/Reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/hetic/CalculateurFicherDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/hetic/CalculateurFicherDb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/hetic/CalculateurFichier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/hetic/CalculateurFichier.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/fr/hetic/CalculateurFactoryFonctionnel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/hetic/CalculateurFactoryFonctionnel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/hetic/CalculateurFicherDb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/hetic/CalculateurFicherDb.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/fr/hetic/CalculateurFichier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/hetic/CalculateurFichier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.hetic.CalculateurFactoryTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.hetic.CalculateurFactoryTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/fr.hetic.CalculateurFactoryTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/fr.hetic.CalculateurFactoryTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/fr/hetic/UtilsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/fr/hetic/UtilsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/hetic/Fichier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/hetic/Fichier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/hetic/FileData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/hetic/FileData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/hetic/Ligne.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/hetic/Ligne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.hetic.CalculateurFactoryTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.hetic.UtilsTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/fr.hetic.CalculateurFactoryTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/fr.hetic.UtilsTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/fr/hetic/CalculateurFactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/fr/hetic/UtilsTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,9 +60,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Calculateur.executor": "Run",
-    "Application.CalculateurFicherDb.executor": "Debug",
+    "Application.CalculateurFicherDb.executor": "Run",
     "Application.CalculateurFichier.executor": "Run",
     "Application.DatabaseConnection.executor": "Run",
+    "Application.FileSystemDatabaseFileReader.executor": "Run",
     "Application.Unnamed.executor": "Run",
     "JUnit.CalculateurFactoryTest.executor": "Run",
     "JUnit.CalculateurFactoryTest.testAddition.executor": "Run",
@@ -68,7 +72,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "EX7",
+    "git-widget-placeholder": "EX9",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/julienhuynh/Documents/workspace/archives/java/bin/operations",
     "node.js.detected.package.eslint": "true",
@@ -93,6 +97,8 @@
       <recent name="$PROJECT_DIR$/bin/operations" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src/main/java/ressource" />
       <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -100,7 +106,7 @@
       <recent name="fr.hetic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CalculateurFicherDb">
+  <component name="RunManager" selected="Application.FileSystemDatabaseFileReader">
     <configuration name="Calculateur" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.hetic.Calculateur" />
       <module name="java" />
@@ -161,17 +167,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculateurFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FileSystemDatabaseFileReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.hetic.FileSystemDatabaseFileReader" />
       <module name="calculateur" />
+      <option name="PROGRAM_PARAMETERS" value="fs operations" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="fr.hetic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="fr.hetic" />
-      <option name="MAIN_CLASS_NAME" value="fr.hetic.CalculateurFactoryTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -210,19 +215,19 @@
     <list>
       <item itemvalue="Application.Calculateur" />
       <item itemvalue="Application.CalculateurFichier" />
+      <item itemvalue="Application.FileSystemDatabaseFileReader" />
       <item itemvalue="Application.CalculateurFicherDb" />
       <item itemvalue="Application.DatabaseConnection" />
-      <item itemvalue="JUnit.CalculateurFactoryTest" />
       <item itemvalue="JUnit.CalculateurFactoryTest.testCalculerError" />
       <item itemvalue="JUnit.UtilsTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileSystemDatabaseFileReader" />
         <item itemvalue="Application.CalculateurFicherDb" />
         <item itemvalue="Application.DatabaseConnection" />
         <item itemvalue="JUnit.UtilsTest" />
         <item itemvalue="JUnit.CalculateurFactoryTest.testCalculerError" />
-        <item itemvalue="JUnit.CalculateurFactoryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -249,23 +254,12 @@
       <workItem from="1712665723118" duration="343000" />
       <workItem from="1712666111139" duration="408000" />
       <workItem from="1712666556924" duration="63000" />
-      <workItem from="1712666631147" duration="44394000" />
+      <workItem from="1712666631147" duration="55339000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/fr/hetic/CalculateurFicherDb.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
