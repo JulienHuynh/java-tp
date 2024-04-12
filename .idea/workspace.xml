@@ -5,7 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4bdedb0-cba5-4e06-bf9a-6ee303323b3c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/fr/hetic/CalculateurFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fr/hetic/CalculateurFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/hetic/CalculateurFicherDb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/hetic/DatabaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/hetic/Fichier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/hetic/FichierService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/hetic/FichierServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/hetic/FileData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/hetic/Ligne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/hetic/CalculateurFactoryFonctionnel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/hetic/CalculateurFactoryFonctionnel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fr/hetic/CalculateurFichier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fr/hetic/CalculateurFichier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.hetic.CalculateurFactoryTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-fr.hetic.CalculateurFactoryTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/fr.hetic.CalculateurFactoryTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/fr.hetic.CalculateurFactoryTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/fr/hetic/UtilsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/fr/hetic/UtilsTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +34,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -37,15 +57,18 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Calculateur.executor": "Run",
+    "Application.CalculateurFicherDb.executor": "Debug",
     "Application.CalculateurFichier.executor": "Run",
+    "Application.DatabaseConnection.executor": "Run",
     "Application.Unnamed.executor": "Run",
     "JUnit.CalculateurFactoryTest.executor": "Run",
     "JUnit.CalculateurFactoryTest.testAddition.executor": "Run",
     "JUnit.CalculateurFactoryTest.testCalculerError.executor": "Run",
+    "JUnit.UtilsTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "EX7",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/julienhuynh/Documents/workspace/archives/java/bin/operations",
     "node.js.detected.package.eslint": "true",
@@ -58,6 +81,11 @@
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "editor.preferences.import",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -68,12 +96,29 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="fr.hetic" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.UtilsTest">
+  <component name="RunManager" selected="Application.CalculateurFicherDb">
     <configuration name="Calculateur" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.hetic.Calculateur" />
       <module name="java" />
       <option name="PROGRAM_PARAMETERS" value="1 2 +" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.hetic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculateurFicherDb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.hetic.CalculateurFicherDb" />
+      <module name="calculateur" />
+      <option name="PROGRAM_PARAMETERS" value="operations" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="fr.hetic.*" />
@@ -103,6 +148,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DatabaseConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.hetic.DatabaseConnection" />
+      <module name="calculateur" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.hetic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculateurFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="calculateur" />
       <extension name="coverage">
@@ -114,22 +172,6 @@
       <option name="PACKAGE_NAME" value="fr.hetic" />
       <option name="MAIN_CLASS_NAME" value="fr.hetic.CalculateurFactoryTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculateurFactoryTest.testAddition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="calculateur" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fr.hetic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="fr.hetic" />
-      <option name="MAIN_CLASS_NAME" value="fr.hetic.CalculateurFactoryTest" />
-      <option name="METHOD_NAME" value="testAddition" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -168,17 +210,19 @@
     <list>
       <item itemvalue="Application.Calculateur" />
       <item itemvalue="Application.CalculateurFichier" />
+      <item itemvalue="Application.CalculateurFicherDb" />
+      <item itemvalue="Application.DatabaseConnection" />
       <item itemvalue="JUnit.CalculateurFactoryTest" />
-      <item itemvalue="JUnit.CalculateurFactoryTest.testAddition" />
       <item itemvalue="JUnit.CalculateurFactoryTest.testCalculerError" />
       <item itemvalue="JUnit.UtilsTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CalculateurFicherDb" />
+        <item itemvalue="Application.DatabaseConnection" />
         <item itemvalue="JUnit.UtilsTest" />
         <item itemvalue="JUnit.CalculateurFactoryTest.testCalculerError" />
         <item itemvalue="JUnit.CalculateurFactoryTest" />
-        <item itemvalue="JUnit.CalculateurFactoryTest.testAddition" />
       </list>
     </recent_temporary>
   </component>
@@ -205,12 +249,23 @@
       <workItem from="1712665723118" duration="343000" />
       <workItem from="1712666111139" duration="408000" />
       <workItem from="1712666556924" duration="63000" />
-      <workItem from="1712666631147" duration="31596000" />
+      <workItem from="1712666631147" duration="44394000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fr/hetic/CalculateurFicherDb.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
